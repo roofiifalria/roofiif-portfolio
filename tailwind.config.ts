@@ -14,6 +14,8 @@ const config: Config = {
         "drift-2": "drift2 8s ease-in-out infinite",
         "drift-3": "drift3 10s ease-in-out infinite",
         "float-photo": "floatPhoto 6s ease-in-out infinite",
+        "fade-in": "fadeIn 0.2s ease-out",
+        "scale-in": "scaleIn 0.25s ease-out",
       },
       keyframes: {
         blink: {
@@ -40,6 +42,14 @@ const config: Config = {
         floatPhoto: {
           "0%, 100%": { transform: "translateY(0px)" },
           "50%": { transform: "translateY(-15px)" },
+        },
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        scaleIn: {
+          "0%": { opacity: "0", transform: "scale(0.95)" },
+          "100%": { opacity: "1", transform: "scale(1)" },
         },
       },
     },
