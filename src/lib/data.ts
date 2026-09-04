@@ -22,7 +22,7 @@ export const hero = {
   socials: {
     linkedin: "https://linkedin.com/in/roofiif",
     github: "https://github.com/roofiifalria",
-    email: "mailto:roofiifalria30@gmail.com",
+    email: "mailto:roofiifalria9@gmail.com",
   },
   profileImage: "/images/profile.png",
 };
@@ -198,7 +198,7 @@ export const contact = {
   heading: "Interested in working together?",
   subtext:
     "Open for full-time opportunities, internships, and research collaborations.",
-  email: "roofiifalria30@gmail.com",
+  email: "roofiifalria9@gmail.com",
   phone: "+62 8123 1524 2496",
   whatsapp:
     "https://api.whatsapp.com/send/?phone=081231524296&text&type=phone_number&app_absent=0",
