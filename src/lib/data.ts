@@ -227,4 +227,5 @@ export const certificates = [
   { image: "/images/certificate/certificate-11.png" },
   { image: "/images/certificate/certificate-12.jpg" },
   { image: "/images/certificate/certificate-13.png" },
+  { image: "/images/certificate/certificate-14.png" },
 ];

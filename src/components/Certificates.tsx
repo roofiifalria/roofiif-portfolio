@@ -32,14 +32,14 @@ export default function Certificates() {
         <h2 className="text-3xl font-bold text-gray-900 mb-2">Certificates</h2>
         <div className="w-16 h-1.5 bg-yellow-400 rounded-full mb-10" />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10">
+        <div className="flex flex-wrap justify-center gap-8">
           {certificates.map((cert, i) => (
             <button
               key={cert.image}
               type="button"
               onClick={() => setSelected(i)}
               aria-label={`Open certificate ${i + 1}`}
-              className="bg-white rounded-3xl border border-gray-100 shadow-md hover:-translate-y-2 hover:shadow-xl hover:shadow-yellow-200/30 transition-all duration-300 overflow-hidden"
+              className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.334rem)] bg-white rounded-3xl border border-gray-100 shadow-md hover:-translate-y-2 hover:shadow-xl hover:shadow-yellow-200/30 transition-all duration-300 overflow-hidden"
             >
               <div className="relative aspect-[4/3] bg-gray-50 p-3">
                 <div className="relative w-full h-full rounded-xl overflow-hidden border border-gray-100 bg-white">
