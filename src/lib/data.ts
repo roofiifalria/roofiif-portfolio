@@ -14,7 +14,7 @@ export const hero = {
     "AI & ML Engineer",
   ],
   intro:
-    "Informatics Engineering graduate from ITS with experience in data analysis, digital transformation, and AI research. Passionate about building data-driven solutions for government and industry stakeholders.",
+    "Informatics Engineering graduate from ITS with hands-on experience in Data Analytics, AI/ML, research, and digital solutions. Experienced in working on data-driven projects across industry and academic environments, with a strong interest in solving problems through technology, analytical thinking, and continuous learning.",
   cta: {
     projects: "#projects",
     resume: "/resume.pdf",
