@@ -214,11 +214,12 @@ export const navLinks = [
 ];
 
 export const certificates = [
-  { image: "/images/certificate/certificate-1.jpg" },
-  { image: "/images/certificate/certificate-2.png" },
-  { image: "/images/certificate/certificate-3.png" },
+  { image: "/images/certificate/certificate-14.png" },
   { image: "/images/certificate/certificate-4.png" },
+  { image: "/images/certificate/certificate-3.png" },
+  { image: "/images/certificate/certificate-1.jpg" },
   { image: "/images/certificate/certificate-5.png" },
+  { image: "/images/certificate/certificate-2.png" },
   { image: "/images/certificate/certificate-6.jpg" },
   { image: "/images/certificate/certificate-7.jpg" },
   { image: "/images/certificate/certificate-8.jpg" },
@@ -227,5 +228,4 @@ export const certificates = [
   { image: "/images/certificate/certificate-11.png" },
   { image: "/images/certificate/certificate-12.jpg" },
   { image: "/images/certificate/certificate-13.png" },
-  { image: "/images/certificate/certificate-14.png" },
 ];
