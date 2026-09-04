@@ -37,7 +37,7 @@ export const about = {
     gpa: "3.39 / 4.00",
   },
   funFact:
-    "Led a 17-member cross-functional team to execute 10+ student development programs at HMTC ITS.",
+    "Directed 17 active members and managed over 15 clubs in organizational programs involving approximately 1,400 students across four academic batches.",
 };
 
 export const skills = {
